@@ -1,0 +1,14 @@
+PODS:
+  - SMSegmentView (0.1.0)
+
+DEPENDENCIES:
+  - SMSegmentView (from `../`)
+
+EXTERNAL SOURCES:
+  SMSegmentView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  SMSegmentView: eb050f8ef06680301c039214c3564f1e6a434204
+
+COCOAPODS: 0.37.2

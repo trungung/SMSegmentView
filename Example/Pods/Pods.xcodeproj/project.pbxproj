@@ -1,0 +1,1016 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03598C6B75FC095BAF000A6C /* Pods-SMSegmentView_Example-SMSegmentView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EA314589BE0F4D4856F5D8C1 /* Pods-SMSegmentView_Example-SMSegmentView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04D4CF3846314D8454BDBFE3 /* Pods-SMSegmentView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B7AEEBD28E1E6EA6AE17C515 /* Pods-SMSegmentView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		08C96AC2E4624464959DCF04 /* SMSegmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395BA4995D432C7C0BEC1A66 /* SMSegmentView.swift */; };
+		09D38A8CCE55C94B35665D37 /* SMSegmentView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4E2F5CF19EF07842CF1A5974 /* SMSegmentView.bundle */; };
+		25F313304AB90F1B2C11268F /* Pods-SMSegmentView_Example-SMSegmentView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F1C6D2C00E3D353A153959E /* Pods-SMSegmentView_Example-SMSegmentView-dummy.m */; };
+		3EFB8A389CFE17047159D291 /* Pods-SMSegmentView_Tests-SMSegmentView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F71ED42BC54E6F3C24B69DD0 /* Pods-SMSegmentView_Tests-SMSegmentView-dummy.m */; };
+		49108B7DAA0EB10F28D2CC1A /* Pods-SMSegmentView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B796FA13DA6CE4D0317D5D /* Pods-SMSegmentView_Tests-dummy.m */; };
+		69B48A88B13AC79A86645FCD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D42CD790149DECEE6B8C38DD /* Foundation.framework */; };
+		7C7A3165370F0BB59BFBB044 /* SMSegmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395BA4995D432C7C0BEC1A66 /* SMSegmentView.swift */; };
+		7CAEB7D7420A73F954E9BC2D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D42CD790149DECEE6B8C38DD /* Foundation.framework */; };
+		80A736CBCD036A95591E7389 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D42CD790149DECEE6B8C38DD /* Foundation.framework */; };
+		A14CAC061B231F199A0E8044 /* SMSegmentView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 526B1B85C9EDC89E50D29384 /* SMSegmentView.bundle */; };
+		A2E92D1FA2BC8778D3FEBCC8 /* Pods-SMSegmentView_Tests-SMSegmentView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B7F9DB86D165569CDB2C3348 /* Pods-SMSegmentView_Tests-SMSegmentView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEE4BC3EAFFC8BB2DA801924 /* Pods-SMSegmentView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F154CF7392B6F221138FB4F6 /* Pods-SMSegmentView_Example-dummy.m */; };
+		AF8AB107127755E00D9D54E0 /* SMSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60F8F1B3128A4B6EB8A7A79 /* SMSegment.swift */; };
+		C593B577FDB70B74D87A3FE0 /* SMSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60F8F1B3128A4B6EB8A7A79 /* SMSegment.swift */; };
+		D29150CA87A84DA4C82D693C /* Pods-SMSegmentView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C4FE3A766114D9CA9D231983 /* Pods-SMSegmentView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCFE11258ECD45E5B373667E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D42CD790149DECEE6B8C38DD /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B768F0E171E2BA84361DD9E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A64CD47B342B4195D94CBC8A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62525A49E7F608752C240ACC;
+			remoteInfo = "Pods-SMSegmentView_Tests-SMSegmentView";
+		};
+		BA1D95D4C3804B767F7B8E68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A64CD47B342B4195D94CBC8A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E8382997EF8165A38313FB7A;
+			remoteInfo = "Pods-SMSegmentView_Tests-SMSegmentView-SMSegmentView";
+		};
+		E6D7A40601ABA654A5696A5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A64CD47B342B4195D94CBC8A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C64398046E9D88ED6FF81A6;
+			remoteInfo = "Pods-SMSegmentView_Example-SMSegmentView";
+		};
+		E94F46AC66E235F9ABBCB042 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A64CD47B342B4195D94CBC8A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 049B7FD73493C563979763C8;
+			remoteInfo = "Pods-SMSegmentView_Example-SMSegmentView-SMSegmentView";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		007F399FBC1843EF39540C59 /* Pods-SMSegmentView_Example-SMSegmentView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SMSegmentView_Example-SMSegmentView.xcconfig"; sourceTree = "<group>"; };
+		07944B08219C2E7FE13DE0A4 /* Pods-SMSegmentView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SMSegmentView_Example.modulemap"; sourceTree = "<group>"; };
+		118FE8FD786FAC8ED2DABB6C /* Pods-SMSegmentView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SMSegmentView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		1A14D43481CD9EA67D59D6CB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22D1579995E76432F5408743 /* Pods-SMSegmentView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SMSegmentView_Example-resources.sh"; sourceTree = "<group>"; };
+		3591BF0E69F6EBFD7B5C2B2E /* Pods-SMSegmentView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SMSegmentView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		395BA4995D432C7C0BEC1A66 /* SMSegmentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SMSegmentView.swift; sourceTree = "<group>"; };
+		4C34F557D6BC7D1091748F0D /* Pods-SMSegmentView_Tests-SMSegmentView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SMSegmentView_Tests-SMSegmentView.xcconfig"; path = "../Pods-SMSegmentView_Tests-SMSegmentView/Pods-SMSegmentView_Tests-SMSegmentView.xcconfig"; sourceTree = "<group>"; };
+		4E2F5CF19EF07842CF1A5974 /* SMSegmentView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SMSegmentView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		526B1B85C9EDC89E50D29384 /* SMSegmentView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SMSegmentView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		579E75496D49532CD6978D45 /* Pods-SMSegmentView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SMSegmentView_Tests.modulemap"; sourceTree = "<group>"; };
+		583A1B29BC686FC572C3058A /* Pods-SMSegmentView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SMSegmentView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		58EEC43B6D2881C4331A9D9E /* Pods_SMSegmentView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SMSegmentView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		646B3A5779372F067C8F47F9 /* Pods-SMSegmentView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SMSegmentView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		71D27DE2815AE03ED49E6FC4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AF7C7786A1ABCBE4C031F94 /* SMSegmentView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SMSegmentView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E369B0227B0FA67E6E797C2 /* Pods-SMSegmentView_Tests-SMSegmentView-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SMSegmentView_Tests-SMSegmentView-Private.xcconfig"; path = "../Pods-SMSegmentView_Tests-SMSegmentView/Pods-SMSegmentView_Tests-SMSegmentView-Private.xcconfig"; sourceTree = "<group>"; };
+		8F1C6D2C00E3D353A153959E /* Pods-SMSegmentView_Example-SMSegmentView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SMSegmentView_Example-SMSegmentView-dummy.m"; sourceTree = "<group>"; };
+		90D2ACA69740291D8C509F76 /* Pods-SMSegmentView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SMSegmentView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		9857C8A293F33E0108839F7D /* Pods-SMSegmentView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SMSegmentView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		99E126E61767BF1E5D209E5F /* Pods-SMSegmentView_Example-SMSegmentView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SMSegmentView_Example-SMSegmentView-prefix.pch"; sourceTree = "<group>"; };
+		9ADC265024DF3AC785834939 /* Pods-SMSegmentView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SMSegmentView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		9EFB37375522C4593B9B7F2B /* Pods-SMSegmentView_Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SMSegmentView_Tests-environment.h"; sourceTree = "<group>"; };
+		A05B83F311DE3460BFA67FCB /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1418E2090E763EBF24E571E /* Pods-SMSegmentView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SMSegmentView_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		B60F8F1B3128A4B6EB8A7A79 /* SMSegment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SMSegment.swift; sourceTree = "<group>"; };
+		B7AEEBD28E1E6EA6AE17C515 /* Pods-SMSegmentView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SMSegmentView_Example-umbrella.h"; sourceTree = "<group>"; };
+		B7F9DB86D165569CDB2C3348 /* Pods-SMSegmentView_Tests-SMSegmentView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-SMSegmentView_Tests-SMSegmentView-umbrella.h"; path = "../Pods-SMSegmentView_Tests-SMSegmentView/Pods-SMSegmentView_Tests-SMSegmentView-umbrella.h"; sourceTree = "<group>"; };
+		C3B796FA13DA6CE4D0317D5D /* Pods-SMSegmentView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SMSegmentView_Tests-dummy.m"; sourceTree = "<group>"; };
+		C4D39F4A95DD0A71048CAA6B /* Pods_SMSegmentView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SMSegmentView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4FE3A766114D9CA9D231983 /* Pods-SMSegmentView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SMSegmentView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		D041233C1DFF02225C41B166 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D310C7FE9B44AEDB5158E6F5 /* SMSegmentView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SMSegmentView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D42CD790149DECEE6B8C38DD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D661C4891C5E6FF9E15DA69A /* Pods-SMSegmentView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SMSegmentView_Tests-resources.sh"; sourceTree = "<group>"; };
+		D83B883740ADCF19E70E9488 /* Pods-SMSegmentView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SMSegmentView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		DCADF74AECE855A24C1A4A71 /* Pods-SMSegmentView_Tests-SMSegmentView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-SMSegmentView_Tests-SMSegmentView-prefix.pch"; path = "../Pods-SMSegmentView_Tests-SMSegmentView/Pods-SMSegmentView_Tests-SMSegmentView-prefix.pch"; sourceTree = "<group>"; };
+		E6979CD85F946FD623F83F72 /* Pods-SMSegmentView_Example-SMSegmentView-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SMSegmentView_Example-SMSegmentView-Private.xcconfig"; sourceTree = "<group>"; };
+		E77768E14BCDAFF0B6C9F631 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Pods-SMSegmentView_Tests-SMSegmentView/Info.plist"; sourceTree = "<group>"; };
+		EA314589BE0F4D4856F5D8C1 /* Pods-SMSegmentView_Example-SMSegmentView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SMSegmentView_Example-SMSegmentView-umbrella.h"; sourceTree = "<group>"; };
+		EF11015546C88F126DA4A021 /* Pods-SMSegmentView_Tests-SMSegmentView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "Pods-SMSegmentView_Tests-SMSegmentView.modulemap"; path = "../Pods-SMSegmentView_Tests-SMSegmentView/Pods-SMSegmentView_Tests-SMSegmentView.modulemap"; sourceTree = "<group>"; };
+		F154CF7392B6F221138FB4F6 /* Pods-SMSegmentView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SMSegmentView_Example-dummy.m"; sourceTree = "<group>"; };
+		F24CBF6E372659F63336F56D /* Pods-SMSegmentView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SMSegmentView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F479DD938B3F31ED3FA30E46 /* Pods-SMSegmentView_Example-SMSegmentView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SMSegmentView_Example-SMSegmentView.modulemap"; sourceTree = "<group>"; };
+		F71ED42BC54E6F3C24B69DD0 /* Pods-SMSegmentView_Tests-SMSegmentView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-SMSegmentView_Tests-SMSegmentView-dummy.m"; path = "../Pods-SMSegmentView_Tests-SMSegmentView/Pods-SMSegmentView_Tests-SMSegmentView-dummy.m"; sourceTree = "<group>"; };
+		F9A08241073749F04BF6E6CB /* Pods-SMSegmentView_Example-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SMSegmentView_Example-environment.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17B8BDF0C5CBCA9163D4B986 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F923385DE655ACABFCAB823 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69B48A88B13AC79A86645FCD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5808A8105964D5BD9D49535A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79D81A10A211CB78E2052A87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCFE11258ECD45E5B373667E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9103DD3EE92BCE678A77A363 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80A736CBCD036A95591E7389 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD9D3AB398AC3588FC13D7A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CAEB7D7420A73F954E9BC2D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00EBA049F21F63B0ED535062 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B48ABE9FA8FA72D87AA6C914 /* SMSegmentView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		165FC605EA665A6B6031BC37 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C47EB927111FE45D70274930 /* Pods-SMSegmentView_Example */,
+				59E4DBDD1248D21FACD9D0F3 /* Pods-SMSegmentView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		342603EB9474EB8885BD7AD3 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B60F8F1B3128A4B6EB8A7A79 /* SMSegment.swift */,
+				395BA4995D432C7C0BEC1A66 /* SMSegmentView.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		38539160D5FDCC7B7EB0EAA3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D041233C1DFF02225C41B166 /* Info.plist */,
+				E77768E14BCDAFF0B6C9F631 /* Info.plist */,
+				F479DD938B3F31ED3FA30E46 /* Pods-SMSegmentView_Example-SMSegmentView.modulemap */,
+				007F399FBC1843EF39540C59 /* Pods-SMSegmentView_Example-SMSegmentView.xcconfig */,
+				E6979CD85F946FD623F83F72 /* Pods-SMSegmentView_Example-SMSegmentView-Private.xcconfig */,
+				8F1C6D2C00E3D353A153959E /* Pods-SMSegmentView_Example-SMSegmentView-dummy.m */,
+				99E126E61767BF1E5D209E5F /* Pods-SMSegmentView_Example-SMSegmentView-prefix.pch */,
+				EA314589BE0F4D4856F5D8C1 /* Pods-SMSegmentView_Example-SMSegmentView-umbrella.h */,
+				EF11015546C88F126DA4A021 /* Pods-SMSegmentView_Tests-SMSegmentView.modulemap */,
+				4C34F557D6BC7D1091748F0D /* Pods-SMSegmentView_Tests-SMSegmentView.xcconfig */,
+				8E369B0227B0FA67E6E797C2 /* Pods-SMSegmentView_Tests-SMSegmentView-Private.xcconfig */,
+				F71ED42BC54E6F3C24B69DD0 /* Pods-SMSegmentView_Tests-SMSegmentView-dummy.m */,
+				DCADF74AECE855A24C1A4A71 /* Pods-SMSegmentView_Tests-SMSegmentView-prefix.pch */,
+				B7F9DB86D165569CDB2C3348 /* Pods-SMSegmentView_Tests-SMSegmentView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Pods-SMSegmentView_Example-SMSegmentView";
+			sourceTree = "<group>";
+		};
+		59E4DBDD1248D21FACD9D0F3 /* Pods-SMSegmentView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1A14D43481CD9EA67D59D6CB /* Info.plist */,
+				579E75496D49532CD6978D45 /* Pods-SMSegmentView_Tests.modulemap */,
+				F24CBF6E372659F63336F56D /* Pods-SMSegmentView_Tests-acknowledgements.markdown */,
+				9857C8A293F33E0108839F7D /* Pods-SMSegmentView_Tests-acknowledgements.plist */,
+				C3B796FA13DA6CE4D0317D5D /* Pods-SMSegmentView_Tests-dummy.m */,
+				9EFB37375522C4593B9B7F2B /* Pods-SMSegmentView_Tests-environment.h */,
+				A1418E2090E763EBF24E571E /* Pods-SMSegmentView_Tests-frameworks.sh */,
+				D661C4891C5E6FF9E15DA69A /* Pods-SMSegmentView_Tests-resources.sh */,
+				C4FE3A766114D9CA9D231983 /* Pods-SMSegmentView_Tests-umbrella.h */,
+				D83B883740ADCF19E70E9488 /* Pods-SMSegmentView_Tests.debug.xcconfig */,
+				646B3A5779372F067C8F47F9 /* Pods-SMSegmentView_Tests.release.xcconfig */,
+			);
+			name = "Pods-SMSegmentView_Tests";
+			path = "Target Support Files/Pods-SMSegmentView_Tests";
+			sourceTree = "<group>";
+		};
+		602E1FB24FC3B3527FBEC4D2 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D42CD790149DECEE6B8C38DD /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6EB713194720A5D0AC9CBA5D /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				342603EB9474EB8885BD7AD3 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		778FBE6544FE75F82CB0E0C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				58EEC43B6D2881C4331A9D9E /* Pods_SMSegmentView_Example.framework */,
+				C4D39F4A95DD0A71048CAA6B /* Pods_SMSegmentView_Tests.framework */,
+				526B1B85C9EDC89E50D29384 /* SMSegmentView.bundle */,
+				4E2F5CF19EF07842CF1A5974 /* SMSegmentView.bundle */,
+				D310C7FE9B44AEDB5158E6F5 /* SMSegmentView.framework */,
+				8AF7C7786A1ABCBE4C031F94 /* SMSegmentView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8367DF644C6B5210BA149392 = {
+			isa = PBXGroup;
+			children = (
+				A05B83F311DE3460BFA67FCB /* Podfile */,
+				00EBA049F21F63B0ED535062 /* Development Pods */,
+				C3E30D91567569721BE54EDF /* Frameworks */,
+				778FBE6544FE75F82CB0E0C4 /* Products */,
+				165FC605EA665A6B6031BC37 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		B48ABE9FA8FA72D87AA6C914 /* SMSegmentView */ = {
+			isa = PBXGroup;
+			children = (
+				6EB713194720A5D0AC9CBA5D /* Pod */,
+				38539160D5FDCC7B7EB0EAA3 /* Support Files */,
+			);
+			name = SMSegmentView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		C3E30D91567569721BE54EDF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				602E1FB24FC3B3527FBEC4D2 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C47EB927111FE45D70274930 /* Pods-SMSegmentView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				71D27DE2815AE03ED49E6FC4 /* Info.plist */,
+				07944B08219C2E7FE13DE0A4 /* Pods-SMSegmentView_Example.modulemap */,
+				583A1B29BC686FC572C3058A /* Pods-SMSegmentView_Example-acknowledgements.markdown */,
+				3591BF0E69F6EBFD7B5C2B2E /* Pods-SMSegmentView_Example-acknowledgements.plist */,
+				F154CF7392B6F221138FB4F6 /* Pods-SMSegmentView_Example-dummy.m */,
+				F9A08241073749F04BF6E6CB /* Pods-SMSegmentView_Example-environment.h */,
+				9ADC265024DF3AC785834939 /* Pods-SMSegmentView_Example-frameworks.sh */,
+				22D1579995E76432F5408743 /* Pods-SMSegmentView_Example-resources.sh */,
+				B7AEEBD28E1E6EA6AE17C515 /* Pods-SMSegmentView_Example-umbrella.h */,
+				90D2ACA69740291D8C509F76 /* Pods-SMSegmentView_Example.debug.xcconfig */,
+				118FE8FD786FAC8ED2DABB6C /* Pods-SMSegmentView_Example.release.xcconfig */,
+			);
+			name = "Pods-SMSegmentView_Example";
+			path = "Target Support Files/Pods-SMSegmentView_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		036A29AF6881A4E873D8ACD7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D29150CA87A84DA4C82D693C /* Pods-SMSegmentView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EFB72852C03D79C0FEFDF21 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03598C6B75FC095BAF000A6C /* Pods-SMSegmentView_Example-SMSegmentView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1DAD6A1F1BAFA2D0E704BDD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04D4CF3846314D8454BDBFE3 /* Pods-SMSegmentView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDFD4C39CF762C980E144488 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2E92D1FA2BC8778D3FEBCC8 /* Pods-SMSegmentView_Tests-SMSegmentView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		049B7FD73493C563979763C8 /* Pods-SMSegmentView_Example-SMSegmentView-SMSegmentView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 343FFC12254BD6582C9AED3C /* Build configuration list for PBXNativeTarget "Pods-SMSegmentView_Example-SMSegmentView-SMSegmentView" */;
+			buildPhases = (
+				258BB6BF419D10D56AEDCB08 /* Sources */,
+				17B8BDF0C5CBCA9163D4B986 /* Frameworks */,
+				2011D5404AA91B12AFC705DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SMSegmentView_Example-SMSegmentView-SMSegmentView";
+			productName = "Pods-SMSegmentView_Example-SMSegmentView-SMSegmentView";
+			productReference = 526B1B85C9EDC89E50D29384 /* SMSegmentView.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		2C64398046E9D88ED6FF81A6 /* Pods-SMSegmentView_Example-SMSegmentView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 027E882D0ADDDD0BCF2F19E0 /* Build configuration list for PBXNativeTarget "Pods-SMSegmentView_Example-SMSegmentView" */;
+			buildPhases = (
+				10C39C303176BF73AB9B27B8 /* Sources */,
+				79D81A10A211CB78E2052A87 /* Frameworks */,
+				BA6BF8152757BC4A3468C92F /* Resources */,
+				4EFB72852C03D79C0FEFDF21 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36C61BF69439BBE22B48D056 /* PBXTargetDependency */,
+			);
+			name = "Pods-SMSegmentView_Example-SMSegmentView";
+			productName = "Pods-SMSegmentView_Example-SMSegmentView";
+			productReference = 8AF7C7786A1ABCBE4C031F94 /* SMSegmentView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3657D72DE84AB3A55A8B36D9 /* Pods-SMSegmentView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D2657F26DD4E8FCAC76C068 /* Build configuration list for PBXNativeTarget "Pods-SMSegmentView_Tests" */;
+			buildPhases = (
+				3D23CE3495959A8DD455E01E /* Sources */,
+				9103DD3EE92BCE678A77A363 /* Frameworks */,
+				036A29AF6881A4E873D8ACD7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				676BCD396B126F02F497B7B2 /* PBXTargetDependency */,
+			);
+			name = "Pods-SMSegmentView_Tests";
+			productName = "Pods-SMSegmentView_Tests";
+			productReference = C4D39F4A95DD0A71048CAA6B /* Pods_SMSegmentView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		62525A49E7F608752C240ACC /* Pods-SMSegmentView_Tests-SMSegmentView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F5A8CC6348E77B0017A490F /* Build configuration list for PBXNativeTarget "Pods-SMSegmentView_Tests-SMSegmentView" */;
+			buildPhases = (
+				D0C21BB13D17BD4CD675954B /* Sources */,
+				FD9D3AB398AC3588FC13D7A3 /* Frameworks */,
+				E2ACAF7BE97871A318FA1EA8 /* Resources */,
+				EDFD4C39CF762C980E144488 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				247229CA74F5872F4692E866 /* PBXTargetDependency */,
+			);
+			name = "Pods-SMSegmentView_Tests-SMSegmentView";
+			productName = "Pods-SMSegmentView_Tests-SMSegmentView";
+			productReference = D310C7FE9B44AEDB5158E6F5 /* SMSegmentView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C32131A31B72D68FA5E981DC /* Pods-SMSegmentView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E8F8ADE7C391254C40C8FD9 /* Build configuration list for PBXNativeTarget "Pods-SMSegmentView_Example" */;
+			buildPhases = (
+				8EA6051FD2E218D36F80AD22 /* Sources */,
+				3F923385DE655ACABFCAB823 /* Frameworks */,
+				B1DAD6A1F1BAFA2D0E704BDD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67FAEC64FAADA3687209F76C /* PBXTargetDependency */,
+			);
+			name = "Pods-SMSegmentView_Example";
+			productName = "Pods-SMSegmentView_Example";
+			productReference = 58EEC43B6D2881C4331A9D9E /* Pods_SMSegmentView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E8382997EF8165A38313FB7A /* Pods-SMSegmentView_Tests-SMSegmentView-SMSegmentView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 163A49D9C8C364DB372B7C51 /* Build configuration list for PBXNativeTarget "Pods-SMSegmentView_Tests-SMSegmentView-SMSegmentView" */;
+			buildPhases = (
+				C3510A304E32A63D8AE2C4FD /* Sources */,
+				5808A8105964D5BD9D49535A /* Frameworks */,
+				617615CA164F568A5F002681 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SMSegmentView_Tests-SMSegmentView-SMSegmentView";
+			productName = "Pods-SMSegmentView_Tests-SMSegmentView-SMSegmentView";
+			productReference = 4E2F5CF19EF07842CF1A5974 /* SMSegmentView.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A64CD47B342B4195D94CBC8A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = 7A2C0533D658543C68F48387 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8367DF644C6B5210BA149392;
+			productRefGroup = 778FBE6544FE75F82CB0E0C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C32131A31B72D68FA5E981DC /* Pods-SMSegmentView_Example */,
+				2C64398046E9D88ED6FF81A6 /* Pods-SMSegmentView_Example-SMSegmentView */,
+				049B7FD73493C563979763C8 /* Pods-SMSegmentView_Example-SMSegmentView-SMSegmentView */,
+				3657D72DE84AB3A55A8B36D9 /* Pods-SMSegmentView_Tests */,
+				62525A49E7F608752C240ACC /* Pods-SMSegmentView_Tests-SMSegmentView */,
+				E8382997EF8165A38313FB7A /* Pods-SMSegmentView_Tests-SMSegmentView-SMSegmentView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2011D5404AA91B12AFC705DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		617615CA164F568A5F002681 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA6BF8152757BC4A3468C92F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A14CAC061B231F199A0E8044 /* SMSegmentView.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2ACAF7BE97871A318FA1EA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09D38A8CCE55C94B35665D37 /* SMSegmentView.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10C39C303176BF73AB9B27B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25F313304AB90F1B2C11268F /* Pods-SMSegmentView_Example-SMSegmentView-dummy.m in Sources */,
+				C593B577FDB70B74D87A3FE0 /* SMSegment.swift in Sources */,
+				08C96AC2E4624464959DCF04 /* SMSegmentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		258BB6BF419D10D56AEDCB08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D23CE3495959A8DD455E01E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49108B7DAA0EB10F28D2CC1A /* Pods-SMSegmentView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EA6051FD2E218D36F80AD22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEE4BC3EAFFC8BB2DA801924 /* Pods-SMSegmentView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3510A304E32A63D8AE2C4FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0C21BB13D17BD4CD675954B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EFB8A389CFE17047159D291 /* Pods-SMSegmentView_Tests-SMSegmentView-dummy.m in Sources */,
+				AF8AB107127755E00D9D54E0 /* SMSegment.swift in Sources */,
+				7C7A3165370F0BB59BFBB044 /* SMSegmentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		247229CA74F5872F4692E866 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SMSegmentView_Tests-SMSegmentView-SMSegmentView";
+			target = E8382997EF8165A38313FB7A /* Pods-SMSegmentView_Tests-SMSegmentView-SMSegmentView */;
+			targetProxy = BA1D95D4C3804B767F7B8E68 /* PBXContainerItemProxy */;
+		};
+		36C61BF69439BBE22B48D056 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SMSegmentView_Example-SMSegmentView-SMSegmentView";
+			target = 049B7FD73493C563979763C8 /* Pods-SMSegmentView_Example-SMSegmentView-SMSegmentView */;
+			targetProxy = E94F46AC66E235F9ABBCB042 /* PBXContainerItemProxy */;
+		};
+		676BCD396B126F02F497B7B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SMSegmentView_Tests-SMSegmentView";
+			target = 62525A49E7F608752C240ACC /* Pods-SMSegmentView_Tests-SMSegmentView */;
+			targetProxy = B768F0E171E2BA84361DD9E0 /* PBXContainerItemProxy */;
+		};
+		67FAEC64FAADA3687209F76C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SMSegmentView_Example-SMSegmentView";
+			target = 2C64398046E9D88ED6FF81A6 /* Pods-SMSegmentView_Example-SMSegmentView */;
+			targetProxy = E6D7A40601ABA654A5696A5D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		000BCEA84CD75F394CCCDF15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E369B0227B0FA67E6E797C2 /* Pods-SMSegmentView_Tests-SMSegmentView-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-SMSegmentView_Tests-SMSegmentView/Pods-SMSegmentView_Tests-SMSegmentView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-SMSegmentView_Tests-SMSegmentView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-SMSegmentView_Tests-SMSegmentView/Pods-SMSegmentView_Tests-SMSegmentView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SMSegmentView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		179BB638EDBBB1AD74D3DB6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6979CD85F946FD623F83F72 /* Pods-SMSegmentView_Example-SMSegmentView-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-SMSegmentView_Example-SMSegmentView/Pods-SMSegmentView_Example-SMSegmentView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-SMSegmentView_Example-SMSegmentView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-SMSegmentView_Example-SMSegmentView/Pods-SMSegmentView_Example-SMSegmentView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SMSegmentView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1B037B27F1E87A3142FE4155 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		1C7AA438E5626CE1D750AA79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E369B0227B0FA67E6E797C2 /* Pods-SMSegmentView_Tests-SMSegmentView-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-SMSegmentView_Tests-SMSegmentView/Pods-SMSegmentView_Tests-SMSegmentView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-SMSegmentView_Tests-SMSegmentView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-SMSegmentView_Tests-SMSegmentView/Pods-SMSegmentView_Tests-SMSegmentView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SMSegmentView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4E962CEF6CCBE90616B606A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E369B0227B0FA67E6E797C2 /* Pods-SMSegmentView_Tests-SMSegmentView-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-SMSegmentView_Tests";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = SMSegmentView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		5185AA32B400911EFC498FC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6979CD85F946FD623F83F72 /* Pods-SMSegmentView_Example-SMSegmentView-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-SMSegmentView_Example";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = SMSegmentView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		71DC3885B32E8D9EAB3A61AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E369B0227B0FA67E6E797C2 /* Pods-SMSegmentView_Tests-SMSegmentView-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-SMSegmentView_Tests";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = SMSegmentView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		7C8F778F451DC27E623D2D19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		858341FB2A6FBE3BE1CA38B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 118FE8FD786FAC8ED2DABB6C /* Pods-SMSegmentView_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SMSegmentView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-SMSegmentView_Example/Pods-SMSegmentView_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_SMSegmentView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		94F5480B391CAF88F21FF064 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 646B3A5779372F067C8F47F9 /* Pods-SMSegmentView_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SMSegmentView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-SMSegmentView_Tests/Pods-SMSegmentView_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_SMSegmentView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A16D3CCD2886991E67F6B1DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6979CD85F946FD623F83F72 /* Pods-SMSegmentView_Example-SMSegmentView-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-SMSegmentView_Example-SMSegmentView/Pods-SMSegmentView_Example-SMSegmentView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-SMSegmentView_Example-SMSegmentView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-SMSegmentView_Example-SMSegmentView/Pods-SMSegmentView_Example-SMSegmentView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SMSegmentView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A35344D4A310C79F6C925C8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6979CD85F946FD623F83F72 /* Pods-SMSegmentView_Example-SMSegmentView-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-SMSegmentView_Example";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = SMSegmentView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		B345F486441DDA782CB8FDE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90D2ACA69740291D8C509F76 /* Pods-SMSegmentView_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SMSegmentView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-SMSegmentView_Example/Pods-SMSegmentView_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_SMSegmentView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F7F8916143D6035806B5DA1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D83B883740ADCF19E70E9488 /* Pods-SMSegmentView_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SMSegmentView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-SMSegmentView_Tests/Pods-SMSegmentView_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_SMSegmentView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		027E882D0ADDDD0BCF2F19E0 /* Build configuration list for PBXNativeTarget "Pods-SMSegmentView_Example-SMSegmentView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A16D3CCD2886991E67F6B1DE /* Debug */,
+				179BB638EDBBB1AD74D3DB6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		163A49D9C8C364DB372B7C51 /* Build configuration list for PBXNativeTarget "Pods-SMSegmentView_Tests-SMSegmentView-SMSegmentView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71DC3885B32E8D9EAB3A61AE /* Debug */,
+				4E962CEF6CCBE90616B606A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F5A8CC6348E77B0017A490F /* Build configuration list for PBXNativeTarget "Pods-SMSegmentView_Tests-SMSegmentView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				000BCEA84CD75F394CCCDF15 /* Debug */,
+				1C7AA438E5626CE1D750AA79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		343FFC12254BD6582C9AED3C /* Build configuration list for PBXNativeTarget "Pods-SMSegmentView_Example-SMSegmentView-SMSegmentView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A35344D4A310C79F6C925C8D /* Debug */,
+				5185AA32B400911EFC498FC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D2657F26DD4E8FCAC76C068 /* Build configuration list for PBXNativeTarget "Pods-SMSegmentView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7F8916143D6035806B5DA1B /* Debug */,
+				94F5480B391CAF88F21FF064 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A2C0533D658543C68F48387 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B037B27F1E87A3142FE4155 /* Debug */,
+				7C8F778F451DC27E623D2D19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E8F8ADE7C391254C40C8FD9 /* Build configuration list for PBXNativeTarget "Pods-SMSegmentView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B345F486441DDA782CB8FDE0 /* Debug */,
+				858341FB2A6FBE3BE1CA38B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A64CD47B342B4195D94CBC8A /* Project object */;
+}

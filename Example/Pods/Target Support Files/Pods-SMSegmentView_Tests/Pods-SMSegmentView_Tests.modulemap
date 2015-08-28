@@ -1,0 +1,6 @@
+framework module Pods_SMSegmentView_Tests {
+  umbrella header "Pods-SMSegmentView_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
