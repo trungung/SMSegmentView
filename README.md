@@ -7,6 +7,12 @@
 - Support vertically organise segments
 - More customisible than UISegmentedControl and easier to expand with new style.
 
+# Installation
+
+#### CocoaPods
+```
+pod 'SIFloatingCollectionSwift'
+```
 
 # How To Use
 #### Step 1
