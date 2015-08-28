@@ -12,43 +12,43 @@ import UIKit
 */
 
 // This is mainly for the top/bottom margin of the imageView
-let keyContentVerticalMargin = "VerticalMargin"
+public let keyContentVerticalMargin = "VerticalMargin"
 
 // The colour when the segment is under selected/unselected
-let keySegmentOnSelectionColour = "OnSelectionBackgroundColour"
-let keySegmentOffSelectionColour = "OffSelectionBackgroundColour"
+public let keySegmentOnSelectionColour = "OnSelectionBackgroundColour"
+public let keySegmentOffSelectionColour = "OffSelectionBackgroundColour"
 
 // The colour of the text in the segment for the segment is under selected/unselected
-let keySegmentOnSelectionTextColour = "OnSelectionTextColour"
-let keySegmentOffSelectionTextColour = "OffSelectionTextColour"
+public let keySegmentOnSelectionTextColour = "OnSelectionTextColour"
+public let keySegmentOffSelectionTextColour = "OffSelectionTextColour"
 
 // The font of the text in the segment
-let keySegmentTitleFont = "TitleFont"
+public let keySegmentTitleFont = "TitleFont"
 
 
-enum SegmentOrganiseMode: Int {
+public enum SegmentOrganiseMode: Int {
     case SegmentOrganiseHorizontal = 0
     case SegmentOrganiseVertical
 }
 
 
-protocol SMSegmentViewDelegate: class {
+public protocol SMSegmentViewDelegate: class {
     func segmentView(segmentView: SMSegmentView, didSelectSegmentAtIndex index: Int)
 }
 
-class SMSegmentView: UIView, SMSegmentDelegate {
-    weak var delegate: SMSegmentViewDelegate?
+public class SMSegmentView: UIView, SMSegmentDelegate {
+    public weak var delegate: SMSegmentViewDelegate?
     
     var indexOfSelectedSegment = NSNotFound
     var numberOfSegments = 0
     
-    var organiseMode: SegmentOrganiseMode = SegmentOrganiseMode.SegmentOrganiseHorizontal {
+    public var organiseMode: SegmentOrganiseMode = SegmentOrganiseMode.SegmentOrganiseHorizontal {
         didSet {
             self.setNeedsDisplay()
         }
     }
     
-    var segmentVerticalMargin: CGFloat = 5.0 {
+    public var segmentVerticalMargin: CGFloat = 5.0 {
         didSet {
             for segment in self.segments {
                 segment.verticalMargin = self.segmentVerticalMargin
@@ -57,12 +57,12 @@ class SMSegmentView: UIView, SMSegmentDelegate {
     }
     
     // Segment Separator
-    var separatorColour: UIColor = UIColor.lightGrayColor() {
+    public var separatorColour: UIColor = UIColor.lightGrayColor() {
         didSet {
             self.setNeedsDisplay()
         }
     }
-    var separatorWidth: CGFloat = 1.0 {
+    public var separatorWidth: CGFloat = 1.0 {
         didSet {
             for segment in self.segments {
                 segment.separatorWidth = self.separatorWidth
@@ -72,14 +72,14 @@ class SMSegmentView: UIView, SMSegmentDelegate {
     }
     
     // Segment Colour
-    var segmentOnSelectionColour: UIColor = UIColor.darkGrayColor() {
+    public var segmentOnSelectionColour: UIColor = UIColor.darkGrayColor() {
         didSet {
             for segment in self.segments {
                 segment.onSelectionColour = self.segmentOnSelectionColour
             }
         }
     }
-    var segmentOffSelectionColour: UIColor = UIColor.whiteColor() {
+    public var segmentOffSelectionColour: UIColor = UIColor.whiteColor() {
         didSet {
             for segment in self.segments {
                 segment.offSelectionColour = self.segmentOffSelectionColour
@@ -88,21 +88,21 @@ class SMSegmentView: UIView, SMSegmentDelegate {
     }
     
     // Segment Title Text Colour & Font
-    var segmentOnSelectionTextColour: UIColor = UIColor.whiteColor() {
+    public var segmentOnSelectionTextColour: UIColor = UIColor.whiteColor() {
         didSet {
             for segment in self.segments {
                 segment.onSelectionTextColour = self.segmentOnSelectionTextColour
             }
         }
     }
-    var segmentOffSelectionTextColour: UIColor = UIColor.darkGrayColor() {
+    public var segmentOffSelectionTextColour: UIColor = UIColor.darkGrayColor() {
         didSet {
             for segment in self.segments {
                 segment.offSelectionTextColour = self.segmentOffSelectionTextColour
             }
         }
     }
-    var segmentTitleFont: UIFont = UIFont.systemFontOfSize(17.0) {
+    public var segmentTitleFont: UIFont = UIFont.systemFontOfSize(17.0) {
         didSet {
             for segment in self.segments {
                 segment.titleFont = self.segmentTitleFont
@@ -110,7 +110,7 @@ class SMSegmentView: UIView, SMSegmentDelegate {
         }
     }
     
-    override var frame: CGRect {
+    override public var frame: CGRect {
         didSet {
             self.updateFrameForSegments()
         }
@@ -118,17 +118,17 @@ class SMSegmentView: UIView, SMSegmentDelegate {
     
     private var segments: Array<SMSegment> = Array()
     
-    required init(coder aDecoder: NSCoder) {
+    required public init(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
     
-    override init(frame: CGRect) {
+    override public init(frame: CGRect) {
         super.init(frame: frame)
         self.backgroundColor = UIColor.clearColor()
         self.layer.masksToBounds = true
     }
     
-    init(frame: CGRect, separatorColour: UIColor, separatorWidth: CGFloat, segmentProperties: Dictionary<String, AnyObject>?) {
+    public init(frame: CGRect, separatorColour: UIColor, separatorWidth: CGFloat, segmentProperties: Dictionary<String, AnyObject>?) {
         self.separatorColour = separatorColour
         self.separatorWidth = separatorWidth
         
@@ -176,7 +176,7 @@ class SMSegmentView: UIView, SMSegmentDelegate {
         self.layer.masksToBounds = true
     }
     
-    func addSegmentWithTitle(title: String?, onSelectionImage: UIImage?, offSelectionImage: UIImage?) {
+    public func addSegmentWithTitle(title: String?, onSelectionImage: UIImage?, offSelectionImage: UIImage?) {
         
         let segment = SMSegment(separatorWidth: self.separatorWidth, verticalMargin: self.segmentVerticalMargin, onSelectionColour: self.segmentOnSelectionColour, offSelectionColour: self.segmentOffSelectionColour, onSelectionTextColour: self.segmentOnSelectionTextColour, offSelectionTextColour: self.segmentOffSelectionTextColour, titleFont: self.segmentTitleFont)
         segment.index = self.segments.count
@@ -193,7 +193,7 @@ class SMSegmentView: UIView, SMSegmentDelegate {
         self.numberOfSegments = self.segments.count
     }
     
-    func updateFrameForSegments() {
+    public func updateFrameForSegments() {
         if self.segments.count == 0 {
             return
         }
@@ -250,12 +250,12 @@ class SMSegmentView: UIView, SMSegmentDelegate {
     }
     
     // MARK: Drawing Segment Separators
-    override func drawRect(rect: CGRect) {
+    override public func drawRect(rect: CGRect) {
         let context = UIGraphicsGetCurrentContext()
         self.drawSeparatorWithContext(context)
     }
     
-    func drawSeparatorWithContext(context: CGContextRef) {
+    public func drawSeparatorWithContext(context: CGContextRef) {
         CGContextSaveGState(context)
         
         if self.segments.count > 1 {

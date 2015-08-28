@@ -19,11 +19,11 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
                        DESC
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/SMSegmentView"
+  s.homepage         = "https://github.com/trunung/SMSegmentView"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "TrungUng" => "trung.ungtoan@asnet.com.vn" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/SMSegmentView.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/trunung/SMSegmentView.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '8.0'
