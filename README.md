@@ -11,7 +11,7 @@
 
 #### CocoaPods
 ```
-pod 'SIFloatingCollectionSwift'
+pod 'SIFloatingCollectionSwift', :git => 'https://github.com/trunung/SMSegmentView.git'
 ```
 
 # How To Use
