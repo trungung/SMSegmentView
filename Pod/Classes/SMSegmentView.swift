@@ -225,7 +225,7 @@ public class SMSegmentView: UIView, SMSegmentDelegate {
     }
     
     // MARK: SMSegment Delegate
-    func selectSegment(segment: SMSegment) {
+    public func selectSegment(segment: SMSegment) {
         if self.indexOfSelectedSegment != NSNotFound {
             let previousSelectedSegment = self.segments[self.indexOfSelectedSegment]
             previousSelectedSegment.setSelected(false)
@@ -236,12 +236,12 @@ public class SMSegmentView: UIView, SMSegmentDelegate {
     }
     
     // MARK: Actions
-    func selectSegmentAtIndex(index: Int) {
+    public func selectSegmentAtIndex(index: Int) {
         assert(index >= 0 && index < self.segments.count, "Index at \(index) is out of bounds")
         self.selectSegment(self.segments[index])
     }
     
-    func deselectSegment() {
+    public func deselectSegment() {
         if self.indexOfSelectedSegment != NSNotFound {
             let segment = self.segments[self.indexOfSelectedSegment]
             segment.setSelected(false)
