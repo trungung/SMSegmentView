@@ -11,7 +11,7 @@ protocol SMSegmentDelegate: class {
     func selectSegment(segment: SMSegment)
 }
 
-class SMSegment: UIView {
+public class SMSegment: UIView {
     
     weak var delegate: SMSegmentDelegate?
     
@@ -119,7 +119,7 @@ class SMSegment: UIView {
     }
     
     // UI Elements
-    override var frame: CGRect {
+    override public var frame: CGRect {
         didSet {
             self.resetContentFrame()
         }
@@ -128,7 +128,7 @@ class SMSegment: UIView {
     private var label: UILabel = UILabel()
     private var labelWidth: CGFloat = 0.0
     
-    required init(coder aDecoder: NSCoder) {
+    required public init(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
     
@@ -202,7 +202,7 @@ class SMSegment: UIView {
     }
     
     // MARK: Handle touch
-    override func touchesBegan(touches: Set<NSObject>, withEvent event: UIEvent) {
+    override public func touchesBegan(touches: Set<NSObject>, withEvent event: UIEvent) {
         super.touchesBegan(touches, withEvent: event)
         
         if self.isSelected == false {
@@ -211,7 +211,7 @@ class SMSegment: UIView {
         }
     }
     
-    override func touchesEnded(touches: Set<NSObject>, withEvent event: UIEvent) {
+    override public func touchesEnded(touches: Set<NSObject>, withEvent event: UIEvent) {
         super.touchesEnded(touches, withEvent: event)
         
         self.delegate?.selectSegment(self)
